@@ -15,7 +15,7 @@ namespace Conditional_Statement
                 int grade = int.Parse(input); //coverts the string input to an interger grade variable
 
 
-                if (grade > 100) //in case the users get clever and decides to use a number over 100
+                if (grade > 100) //in case the users get "clever" and decides to use a number over 100
                     Console.WriteLine("Grade entered is too high.");
 
                 else if (grade > 98)
