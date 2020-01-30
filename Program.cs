@@ -10,7 +10,7 @@ namespace Conditional_Statement
 
             try
             {
-                string input = Console.ReadLine(); //takes the user input
+                string input = Console.ReadLine(); //takes the user inputs and records it
 
                 int grade = int.Parse(input); //coverts the string input to an interger grade variable
 
